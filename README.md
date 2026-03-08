@@ -56,14 +56,14 @@ The analysis begins with a visual exploration of key indicators across states.
 
 Variables such as `nota_enem_media`, `renda_media_mensal` and `evasao_escolar_percent` show meaningful variation between states, suggesting differences in educational outcomes and system conditions.
 
-![ENEM scores](images/enem_scores.png)
+![ENEM scores](Images/enem_scores.png)
 
 **Figure**: Average ENEM score by state.
 
 The Federal District has the highest score at **530**, while Amazonas has the lowest at **455**.
 
 
-![Dropout rates](images/dropout_rates.png)
+![Dropout rates](Images/dropout_rates.png)
 
 **Figure**: School dropout percentage by state.
 
@@ -119,7 +119,7 @@ The purpose of this step was not to build a production model, but to demonstrate
 
 Random Forest was used to estimate the relative importance of the variables when predicting dropout rates.
 
-![Feature importance](images/feature_importance.png)
+![Feature importance](Images/feature_importance.png)
 
 **Figure**: Feature importance for predicting school dropout.
 
