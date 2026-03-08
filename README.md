@@ -1,22 +1,19 @@
 # School Dropout and Educational Performance in Brazil
+*Exploring how educational performance, development indicators and resource distribution relate to school dropout patterns in Brazil.*
 
-Exploring how educational performance, development indicators and resource distribution relate to school dropout patterns across Brazilian states.
+**Dataset:** Simulated educational indicators from 10 Brazilian states  
+**Techniques:** EDA, correlation analysis, regression modeling, feature importance  
+**Tools:** Python, Pandas, Seaborn, Scikit-learn  
 
-This project is part of my data portfolio as I transition into roles such as **Data Analyst, Business Intelligence Analyst, Analytics Consultant and Junior Data Scientist**.
+**Objective:** Explore which factors are most associated with school dropout and educational outcomes, and show how data analysis can support better decision-making.
 
-The goal of the project is to demonstrate how a structured analytical workflow can be used to explore a real world problem, identify patterns in the data and translate results into **clear insights that can support better decisions**.
+## Project Context
 
+In this project, I explore how different educational and socioeconomic indicators relate to school dropout patterns across Brazilian states.
 
-## Project Motivation
+The analysis focuses on variables such as `nota_enem_media`, `renda_media_mensal`, `idh`, `escolas_publicas`, `escolas_privadas` and `evasao_escolar_percent`.
 
-One of the aspects I enjoy most about working with data is the possibility of exploring complex real world systems and trying to understand what may be driving certain outcomes.
-
-Education is an interesting area for this type of analysis because it combines multiple dimensions such as performance indicators, development levels and resource distribution.
-
-In this project, I explore how different variables such as `nota_enem_media`, `renda_media_mensal`, `idh`, `escolas_publicas` and `escolas_privadas` relate to `evasao_escolar_percent`.
-
-Although the dataset is small and simplified, the analysis illustrates the kind of **analytical thinking, problem structuring and insight generation** that are important in analytics and data roles.
-
+Even with a simplified dataset, the goal is to demonstrate how a structured analytical workflow can help identify patterns in the data and translate them into insights that may support better decision-making.
 
 ## Dataset
 
@@ -59,14 +56,14 @@ The analysis begins with a visual exploration of key indicators across states.
 
 Variables such as `nota_enem_media`, `renda_media_mensal` and `evasao_escolar_percent` show meaningful variation between states, suggesting differences in educational outcomes and system conditions.
 
-![ENEM scores](Images/enem_scores.png)
+![ENEM scores](images/enem_scores.png)
 
 **Figure**: Average ENEM score by state.
 
 The Federal District has the highest score at **530**, while Amazonas has the lowest at **455**.
 
 
-![Dropout rates](Images/dropout_rates.png)
+![Dropout rates](images/dropout_rates.png)
 
 **Figure**: School dropout percentage by state.
 
@@ -122,7 +119,7 @@ The purpose of this step was not to build a production model, but to demonstrate
 
 Random Forest was used to estimate the relative importance of the variables when predicting dropout rates.
 
-![Feature importance](Images/feature_importance.png)
+![Feature importance](images/feature_importance.png)
 
 **Figure**: Feature importance for predicting school dropout.
 
@@ -184,11 +181,3 @@ Possible extensions of this project include:
 - including more education indicators
 - building an interactive dashboard for decision makers
 
-
-## About Me
-
-I am currently transitioning into roles such as **Data Analyst, Business Intelligence Analyst and Junior Data Scientist**.
-
-My background includes living and working in different countries, which helped me develop strong **analytical curiosity, adaptability and problem solving skills**.
-
-Through projects like this one, I aim to demonstrate my ability to combine **technical tools, analytical reasoning and clear communication of insights**.
